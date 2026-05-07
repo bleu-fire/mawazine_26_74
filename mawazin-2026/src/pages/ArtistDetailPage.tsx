@@ -1,5 +1,7 @@
 export const  ArtistDetailPage = () =>{
     return(
-        <p></p>
+        <div>
+            
+        </div>
     );
 }
