@@ -12,19 +12,19 @@ import { Planning } from "./pages/Planning"
 import Programme from "./pages/Programme"
 
 
-
+// app function  in the  to run  code
 function App() {
   return (
 
     <BrowserRouter>
         <Navbar/>
-
+       
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/ArtistDetailPage" element={<ArtistDetailPage/>} />
         <Route path="/Passport" element={<Passeport/>} />
-         <Route path="/Planning" element={<Planning/>} />
-          <Route path="/Programme" element={<Programme/>} />
+        <Route path="/Planning" element={<Planning/>} />
+        <Route path="/Programme" element={<Programme/>} />
 
         </Routes>
     </BrowserRouter>
