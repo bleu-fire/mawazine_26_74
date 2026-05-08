@@ -5,7 +5,7 @@ import Artist3 from "../assets/Artist/deadmau5.webp"
 
 
 
-export const artists:any =  [
+const artists:ArtiatType[] =  [
     {id:1,
      name:"Fantasm",
      about:"is known for intense hard dance and futuristic electronic sounds, bringing high energy performances to festival stages.",
@@ -26,5 +26,8 @@ export const artists:any =  [
     img : Artist3,
     time:"19:00 | 18/05/26 "  
     },
-]
+] as const
 
+
+export type ArtiatType = {id:number,name:string , about:string,time:string, img:string}
+export default artists ;

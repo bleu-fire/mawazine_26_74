@@ -3,10 +3,10 @@ export const ConcertCard =()=>{
 return(
 
 
-<div>
+<div className="flex gap-9">
     {ConcertData.map((Concert:any)=>(
-    <div>
-        <img src={Concert.Place} alt="this goods" />
+    <div className="">
+        <img src={Concert.place} alt="this goods" width="250" className="rounded-2xl hover:shadow-2xs" />
     </div>
     ))}
 </div>
